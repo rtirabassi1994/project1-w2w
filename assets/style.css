@@ -1,0 +1,194 @@
+html, body{
+    height: 100%
+}
+
+body{
+    background-image: linear-gradient(to right, black, rgb(139, 0, 0), black);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.webTitle {
+    font-size: 65px;
+}
+
+.webText {
+    color: rgb(160, 160, 160);
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.footer{
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    color: rgb(97, 97, 97);
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.query {
+    background-image: linear-gradient(black, red,black);
+    margin-left: 25px;
+    /* width: 80%; */
+    padding: 10px;
+    min-width: 275px;
+    box-shadow: 2px 4px 8px black;
+    margin-bottom: 75px;
+    margin: 5px;
+}
+
+.query-body {
+    color: white;
+    background-image: linear-gradient(black,rgb(83, 83, 83),rgb(83, 83, 83),black);
+    text-align: center;
+    box-shadow: 2px 4px 4px black;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+#utellyResponse{
+    text-shadow: 2px 2px 4px black;
+}
+
+.query-title{
+    text-shadow: 2px 2px 4px black;
+    padding: 15px;
+}
+
+.utellyInput{
+    color: white;
+    background-image: linear-gradient(to right, black, rgb(37, 37, 37), black);
+    width: 100%;
+    border-width: 0px;
+    box-shadow: 2px 4px 4px black;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+
+
+.utellyInput:focus{
+    outline: none;
+    outline: 0;
+    outline: none !important;
+    outline: 0 !important;
+}
+
+#submit{
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-width: 0px;
+border-radius: 10%;
+background-image: radial-gradient( rgb(214, 0, 0),black);
+box-shadow: 2px 4px 4px black;
+color: white;
+margin-top: 25px;
+}
+
+#submit:hover{
+    background-image: radial-gradient( black,rgb(128, 0, 0));
+}
+
+#submit:focus{
+    outline: none;
+    outline: 0;
+    outline: none !important;
+  outline: 0 !important;
+}
+
+#submit:active{
+    box-shadow: 1px 1px 4px black;
+    outline: none;
+    outline: 0;
+    outline: none !important;
+  outline: 0 !important;
+    background-image: radial-gradient( black,rgb(78, 0, 0));
+}
+
+
+
+.img-poster{
+    width: 100%;
+    box-shadow: 2px 2px 4px black;
+}
+
+.select-title{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding: 15px;
+}
+
+.select-container{
+    background-image: linear-gradient(black, red,black);
+    padding: 10px;
+    min-width: 275px;
+    box-shadow: 2px 4px 8px black;
+    margin-bottom: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.select-text{
+    color: rgb(151, 151, 151);
+    text-shadow: 2px 2px 4px black;
+}
+
+.select-body{
+    color: white;
+    background-image: linear-gradient(black,rgb(83, 83, 83),rgb(83, 83, 83),black);
+    text-align: center;
+    box-shadow: 2px 4px 4px black;
+    min-height: 500px;
+    min-width: 250px;
+    text-shadow: 2px 2px 4px black;
+    padding: 5px;
+}
+
+iframe{
+    border-width: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.poster-text{
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.select-body, #divTrailer{
+    position: relative;
+  /* overflow: hidden;
+  padding-top: 66%; */
+    min-height: 500px;
+}
+
+@media (max-width: 575px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 1200px){
+
+}
